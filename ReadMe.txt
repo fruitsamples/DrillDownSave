@@ -1,24 +1,30 @@
 DrillDownSave
 
-Demonstrates how to restore the user's current location in a drill-down list style user interface and restore that location when the app is relaunched.  The drill-down or content hierarchy is generated from a plist file called 'outline.plist'.
+Demonstrates how to restore the user's current location in a drill-down list style user interface and
+restore that location when the app is relaunched. The drill-down or content hierarchy is generated
+from a plist file called 'outline.plist'.
 
 The sample stores the user's location in its preferences file using NSUserDefaults.
 
-One important factor this sample illustrates in restoring the proper UIViewController stack by telling its UINavigationController to push each level without animation like so:
+One important factor this sample illustrates in restoring the proper UIViewController stack by
+telling its UINavigationController to push each level without animation like so:
 
 	[[self navigationController] pushViewController:level3ViewController animated:NO];
 
 
 Build Requirements
-Mac OS X 10.5.3, Xcode 3.1, iPhone OS 2.0
+Mac OS X 10.5.6, iPhone SDK 3.0
 
 
 Runtime Requirements
-Mac OS X 10.5.3, iPhone OS 2.0
+Mac OS X 10.5.6, iPhone SDK 3.0
 
 
 Using the Sample
-Build and run AppPrefs using Xcode 3.1. To run in the simulator, set the Active SDK to Simulator. To run on a device, set the Active SDK to the appropriate Device setting.  When launched navigate through various items in the tree hierarchy.  Press the home button and re-launch DrillDownSave.  The app should return you to the same level from the previous launch.
+Build and run DrillDownSave using Xcode. To run in the simulator, set the Active SDK to Simulator.
+To run on a device, set the Active SDK to the appropriate Device setting.
+When launched navigate through various items in the tree hierarchy.  Press the home button and re-launch DrillDownSave.
+The app should return you to the same level from the previous launch.
 
 
 Packaging List
@@ -34,6 +40,6 @@ outline.plist - the dictionary or outline of the view level hierarchy used in po
 Changes from Previous Versions
 1.0 - First release
 1.1 - Updated for and tested with iPhone OS 2.0. First public release.
+1.2 - Upgraded for 3.0 SDK due to deprecated APIs; in "cellForRowAtIndexPath" it now uses UITableViewCell's initWithStyle.
 
-
-Copyright (C) 2008 Apple Inc. All rights reserved.
+Copyright (C) 2008-2009 Apple Inc. All rights reserved.

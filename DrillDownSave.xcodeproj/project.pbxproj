@@ -9,28 +9,23 @@
 /* Begin PBXBuildFile section */
 		1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		1D60589E0D05DD5A006BFB54 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC4B2650D05D9C8003A8154 /* CoreFoundation.framework */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		531F16A80D6367A3003D33FB /* LeafViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F16980D6367A3003D33FB /* LeafViewController.m */; };
 		531F16A90D6367A3003D33FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F16990D6367A3003D33FB /* AppDelegate.m */; };
 		531F16AB0D6367A3003D33FB /* Level1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F16A20D6367A3003D33FB /* Level1ViewController.m */; };
-		532CE1130DD8BE8A000399BC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 532CE1120DD8BE8A000399BC /* Icon.png */; };
 		539168AD0DCFA62B00D8C6CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 539168AB0DCFA62B00D8C6CB /* InfoPlist.strings */; };
 		539168B00DCFA64400D8C6CB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 539168AE0DCFA64400D8C6CB /* MainWindow.xib */; };
 		53B0454C0DBF941C0064B214 /* outline.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53B0454B0DBF941C0064B214 /* outline.plist */; };
-		53EFD2270D67D9E20056937E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53EFD2260D67D9E20056937E /* AudioToolbox.framework */; };
 		53F028F20DF4A367003A0989 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F028F10DF4A367003A0989 /* Default.png */; };
 		53F3C4F50DBFD49C0069098D /* Level2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F3C4F30DBFD49C0069098D /* Level2ViewController.m */; };
 		53FF66570DCF9B120050CF9F /* Level3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF66560DCF9B120050CF9F /* Level3ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D2419630D4E976800D5FE89 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* DrillDownSave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrillDownSave.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DC4B2650D05D9C8003A8154 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		531F16910D63677B003D33FB /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
@@ -40,11 +35,9 @@
 		531F16A00D6367A3003D33FB /* LeafViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeafViewController.h; sourceTree = "<group>"; };
 		531F16A20D6367A3003D33FB /* Level1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level1ViewController.m; sourceTree = "<group>"; };
 		531F16A40D6367A3003D33FB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		532CE1120DD8BE8A000399BC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		539168AC0DCFA62B00D8C6CB /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		539168AF0DCFA64400D8C6CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		53B0454B0DBF941C0064B214 /* outline.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = outline.plist; sourceTree = "<group>"; };
-		53EFD2260D67D9E20056937E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		53F028F10DF4A367003A0989 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		53F3C4F30DBFD49C0069098D /* Level2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level2ViewController.m; sourceTree = "<group>"; };
 		53F3C4F40DBFD49C0069098D /* Level2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level2ViewController.h; sourceTree = "<group>"; };
@@ -59,11 +52,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D60589E0D05DD5A006BFB54 /* CoreFoundation.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */,
-				53EFD2270D67D9E20056937E /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,11 +64,8 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53EFD2260D67D9E20056937E /* AudioToolbox.framework */,
-				1D2419630D4E976800D5FE89 /* QuartzCore.framework */,
 				1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
-				1DC4B2650D05D9C8003A8154 /* CoreFoundation.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 			);
 			name = "Linked Frameworks";
@@ -119,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				53F028F10DF4A367003A0989 /* Default.png */,
-				532CE1120DD8BE8A000399BC /* Icon.png */,
 				539168AE0DCFA64400D8C6CB /* MainWindow.xib */,
 				539168AB0DCFA62B00D8C6CB /* InfoPlist.strings */,
 				53B0454B0DBF941C0064B214 /* outline.plist */,
@@ -203,7 +190,6 @@
 				53B0454C0DBF941C0064B214 /* outline.plist in Resources */,
 				539168AD0DCFA62B00D8C6CB /* InfoPlist.strings in Resources */,
 				539168B00DCFA64400D8C6CB /* MainWindow.xib in Resources */,
-				532CE1130DD8BE8A000399BC /* Icon.png in Resources */,
 				53F028F20DF4A367003A0989 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +248,7 @@
 				INSTALL_PATH = /Applications;
 				PREBINDING = NO;
 				PRODUCT_NAME = DrillDownSave;
+				SDKROOT = iphoneos3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -280,6 +267,7 @@
 				INSTALL_PATH = /Applications;
 				PREBINDING = NO;
 				PRODUCT_NAME = DrillDownSave;
+				SDKROOT = iphoneos3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -293,7 +281,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos2.0;
+				SDKROOT = iphoneos3.0;
 			};
 			name = Debug;
 		};
@@ -305,7 +293,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos2.0;
+				SDKROOT = iphoneos3.0;
 			};
 			name = Release;
 		};
