@@ -1,7 +1,7 @@
 /*
      File: Level3ViewController.m
  Abstract: The application's level 3 view controller.
-  Version: 1.2
+  Version: 1.3
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
@@ -41,7 +41,7 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
  POSSIBILITY OF SUCH DAMAGE.
  
- Copyright (C) 2009 Apple Inc. All Rights Reserved.
+ Copyright (C) 2010 Apple Inc. All Rights Reserved.
  
  */
 
@@ -101,6 +101,9 @@ NSString *kLevel3TitlePage = @"Level 3";
 	
 	// move to the leaf level
 	[[self navigationController] pushViewController:leafViewController animated:YES];
+    
+    // commit the drill down location preference setting
+    [[NSUserDefaults standardUserDefaults] setObject:appDelegate.savedLocation forKey:kRestoreLocationKey];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -146,6 +149,9 @@ NSString *kLevel3TitlePage = @"Level 3";
 	// we have moved to level 3, remove it's stored selection
 	AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
 	[appDelegate.savedLocation replaceObjectAtIndex:2 withObject:[NSNumber numberWithInteger:-1]];
+    
+    // commit the drill down location preference setting
+    [[NSUserDefaults standardUserDefaults] setObject:appDelegate.savedLocation forKey:kRestoreLocationKey];
 }
 
 @end

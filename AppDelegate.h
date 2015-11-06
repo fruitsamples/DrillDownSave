@@ -1,7 +1,7 @@
 /*
      File: AppDelegate.h
  Abstract: The application delegate class used for adding our navigation controller.
-  Version: 1.2
+  Version: 1.3
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
@@ -41,11 +41,13 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
  POSSIBILITY OF SUCH DAMAGE.
  
- Copyright (C) 2009 Apple Inc. All Rights Reserved.
+ Copyright (C) 2010 Apple Inc. All Rights Reserved.
  
  */
 
 #import <UIKit/UIKit.h>
+
+extern NSString *kRestoreLocationKey; //preference key to obtain our restore location
 
 extern NSString *kItemTitleKey;		// dictionary key for obtaining the item's title to display in each cell
 extern NSString *kChildrenKey;		// dictionary key for obtaining the item's children

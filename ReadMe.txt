@@ -13,11 +13,11 @@ telling its UINavigationController to push each level without animation like so:
 
 
 Build Requirements
-Mac OS X 10.5.6, iPhone SDK 3.0
+iOS 4.0 SDK
 
 
 Runtime Requirements
-Mac OS X 10.5.6, iPhone SDK 3.0
+iPhone OS 3.2 or later
 
 
 Using the Sample
@@ -41,5 +41,6 @@ Changes from Previous Versions
 1.0 - First release
 1.1 - Updated for and tested with iPhone OS 2.0. First public release.
 1.2 - Upgraded for 3.0 SDK due to deprecated APIs; in "cellForRowAtIndexPath" it now uses UITableViewCell's initWithStyle.
+1.3 - Upgraded project to build with the iOS 4.0 SDK.
 
-Copyright (C) 2008-2009 Apple Inc. All rights reserved.
+Copyright (C) 2008-2010 Apple Inc. All rights reserved.
